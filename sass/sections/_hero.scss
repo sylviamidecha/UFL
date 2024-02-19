@@ -1,5 +1,17 @@
+@use "../utilities/mixins" as *;
 .hero {
-  background: url("../../images/Untitled\ design.png") no-repeat center center/cover;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../../images/NYS-CIty-Queens-vs-Nakuru-City-Queens.jpg") no-repeat center center/cover;
+
   height: 100vh;
-  position: relative;
+
+
+  &__part {
+    
+    @include flex(center,center);
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
 }
