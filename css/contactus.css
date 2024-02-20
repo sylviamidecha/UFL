@@ -1,0 +1,10 @@
+.hero__part {
+  background-color: rgb(17, 0, 255);
+  padding: 2em 2em;
+}
+
+.hero__container {
+  display: flex;
+  padding: 2em 1em;
+  gap: 3rem;
+}
