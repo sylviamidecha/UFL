@@ -1,0 +1,28 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.hero__part {
+  background-color: rgb(17, 0, 255);
+  padding: 2em 2em;
+}
+.hero__container {
+  display: flex;
+  padding: 2em 1em;
+  gap: 3rem;
+}
+.contact__left {
+  padding-top: 2em;
+}
+.contact__container {
+  display: flex;
+  background-color: wheat;
+}
+.input {
+  padding: 2em 2em;
+  border-radius: 20px;
+  display: flex;
+  gap: 2rem;
+}
+.name {
+  gap: 4em;
+} 
