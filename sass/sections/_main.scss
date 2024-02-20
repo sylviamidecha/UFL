@@ -1,0 +1,9 @@
+@use "../utilities/mixins" as *;
+
+.main {
+
+    
+  &__sections {
+    @include flex(center, center);
+  }
+}
