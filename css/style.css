@@ -63,15 +63,17 @@
   margin: 50px 0;
   height: 50vh;
 }
-.main h2 {
-  margin: 0 auto;
+.main img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .main__section {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3em;
-  background-color: aqua;
 }
 .main__section--img {
   box-sizing: border-box;
@@ -88,4 +90,5 @@
   color: white;
   background-color: black;
   cursor: pointer;
+  margin: 0 auto;
 }
