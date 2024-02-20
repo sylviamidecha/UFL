@@ -3,17 +3,22 @@
 .main {
   
   margin: 50px 0;
-  height: 50vh;
-
+  
+h2{
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 70%;
+  padding-bottom:20px; 
+}
   img{
     @include flex(center, center);
-    flex-direction: column;
+    
   }
   &__section {
     @include flex(center, center);
     
     gap: 3em;
-    // background-color: aqua;
+    
   }
   &__section--img {
     box-sizing: border-box;
@@ -32,6 +37,17 @@
     cursor: pointer;
     margin: 0 auto;
     
+
+  }
+  @media screen and (max-width:414px){
+   
+   .main__section{
+    flex-direction: column;
+
+    &__section--img{
+      flex: 1;
+    }
+   } 
 
   }
 }

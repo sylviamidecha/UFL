@@ -14,6 +14,11 @@
     height: 100vh;
     color: white;
   }
-
+@media screen and (max-width:414px){
+  .hero{
+    max-width: fit-content;
+  }
+  background-size: max-width(414px);
+}
   
 }
