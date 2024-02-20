@@ -8,3 +8,17 @@
   padding: 2em 1em;
   gap: 3rem;
 }
+
+.contact__left {
+  padding-top: 2em;
+}
+
+.contact__container {
+  display: flex;
+  background-color: wheat;
+}
+
+.input {
+  padding: 2em 2em;
+  border-radius: 20px;
+}
