@@ -59,8 +59,33 @@
   color: white;
 }
 
-.main__sections {
+.main {
+  margin: 50px 0;
+  height: 50vh;
+}
+.main h2 {
+  margin: 0 auto;
+}
+.main__section {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 3em;
+  background-color: aqua;
+}
+.main__section--img {
+  box-sizing: border-box;
+  box-shadow: 0 0 2px;
+  height: 40vh;
+  text-align: center;
+  border-radius: 2em;
+  background-color: white;
+}
+.main__section--btn {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 1em;
+  color: white;
+  background-color: black;
+  cursor: pointer;
 }
