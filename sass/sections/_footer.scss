@@ -1,0 +1,12 @@
+@use "../utilities/mixins" as *;
+
+.footer {
+h1{
+    @include flex(center, center);
+    color: red  
+}
+
+  &__part--img {
+    @include flex(center, center);
+  }
+}
