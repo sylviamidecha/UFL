@@ -193,6 +193,14 @@
   border-radius: 2em;
   background-color: black;
 }
+@media screen and (max-width: 414px) {
+  .main-2 .main-2__categories {
+    flex-direction: column;
+  }
+  .main-2 .main-2__shop {
+    display: none;
+  }
+}
 
 .footer h1 {
   display: flex;

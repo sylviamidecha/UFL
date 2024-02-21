@@ -1,28 +1,25 @@
 @use "../utilities/mixins" as *;
 
 .main {
-  
   margin: 50px 0;
-  
-h2{
-  flex-wrap: wrap;
-  margin: 0 auto;
-  width: 70%;
-  padding-bottom:20px; 
-}
-  img{
+
+  h2 {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 20px;
+  }
+  img {
     @include flex(center, center);
-    
   }
   &__section {
     @include flex(center, center);
-    
+
     gap: 3em;
-    
   }
   &__section--img {
     box-sizing: border-box;
-    box-shadow: 0 0 2px ;
+    box-shadow: 0 0 2px;
     height: 40vh;
     text-align: center;
     border-radius: 2em;
@@ -36,37 +33,30 @@ h2{
     background-color: black;
     cursor: pointer;
     margin: 0 auto;
-    
-
   }
-  @media screen and (max-width:414px){
-   
-   .main__section{
-    flex-direction: column;
+  @media screen and (max-width: 414px) {
+    .main__section {
+      flex-direction: column;
 
-    &__section--img{
-      flex: 1;
+      &__section--img {
+        flex: 1;
+      }
     }
-   } 
-
   }
 }
 
-
-
-
-.main-2{
-  &__categories{
+.main-2 {
+  &__categories {
     @include flex(center, center);
   }
- 
-  &__shop{
+
+  &__shop {
     @include flex(center, center);
     // background-color: red;
     height: 50vh;
     gap: 5em;
   }
-  &__shop--page{
+  &__shop--page {
     @include flex(center, center);
     flex-direction: column;
     box-sizing: border-box;
@@ -75,20 +65,32 @@ h2{
     background-color: red;
   }
 
-  &__shop--page-2{
+  &__shop--page-2 {
     @include flex(center, center);
     flex-direction: column;
     box-sizing: border-box;
     box-shadow: 0 0 2px black;
     border-radius: 2em;
-    background-color: blue; 
+    background-color: blue;
   }
-  &__shop--page-3{
+  &__shop--page-3 {
     @include flex(center, center);
     flex-direction: column;
     box-sizing: border-box;
     box-shadow: 0 0 2px black;
     border-radius: 2em;
     background-color: black;
+  }
+
+  @media screen and (max-width: 414px) {
+    .main-2 {
+      &__categories {
+        flex-direction: column;
+      }
+
+      &__shop {
+        display: none;
+      }
+    }
   }
 }
