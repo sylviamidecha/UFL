@@ -41,5 +41,13 @@ h1{
     cursor: pointer;
     color: white;
 }
+&__bottom--input{
+  @include flex(center, center);
+  border: none;
+
+  &__btn--btm{
+    padding: 20px 10px;
+  }
+}
 
 }
