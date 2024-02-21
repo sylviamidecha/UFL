@@ -1,53 +1,52 @@
-@use "../utilities/variables" as *;
-@use "../utilities/mixins" as *;
-
 .hero__part {
   background-color: rgb(17, 0, 255);
   padding: 2em 2em;
 }
+
 .hero__container {
   display: flex;
   padding: 2em 1em;
   gap: 3rem;
 }
+
 .main {
-  background-color:darkblue;
+  background-color: darkblue;
   height: 90vh;
 }
+
 .contact {
   color: aliceblue;
   text-align: center;
-  padding:2em 2em;
+  padding: 2em 2em;
 }
-
 
 .contact__container {
   background-color: white;
   width: 80%;
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin-left: 8rem;
-  border-radius: 2%;
+  border-radius: 5%;
   height: 60vh;
 }
-.input{
+
+.input {
   margin-left: 2em;
 }
-.contact_mail{
+
+.contact_mail {
   color: cadetblue;
-  display:flex;
-  justify-content: space-evenly;
-  margin-left: 2em;
-  padding-top: 4em;
+  display: flex;
+  gap: 2em;
 }
-.contact_mail h3:hover {
-  color:lightblue;
+
+contact h3:hover {
+  color: lightblue;
   cursor: pointer;
-  
 }
+
 .contact__border {
   border: solid darkgray 1px;
   width: 100%;
-  margin: 0 3em;
-}
-.
+  margin: 2.5em 0;
+}/*# sourceMappingURL=contactus.css.map */
