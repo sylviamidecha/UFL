@@ -80,6 +80,18 @@
   }
 }
 
+.hero-2__bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/roro.png") no-repeat center, center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-2__bg--btn {
+  padding: 10px 20px;
+  border: none;
+}
+
 .main {
   margin: 50px 0;
 }
