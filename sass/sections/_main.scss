@@ -83,4 +83,12 @@ h2{
     border-radius: 2em;
     background-color: blue; 
   }
+  &__shop--page-3{
+    @include flex(center, center);
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px black;
+    border-radius: 2em;
+    background-color: black;
+  }
 }
