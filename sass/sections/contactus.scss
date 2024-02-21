@@ -10,19 +10,22 @@
   padding: 2em 1em;
   gap: 3rem;
 }
+.contact {
+  display: flex;
+  background-color: burlywood;
+  padding: 2em 2em;
+  justify-content: space-between;
+  color: aliceblue;
+}
 .contact__left {
-  padding-top: 2em;
+  padding: 2em 8em;
 }
 .contact__container {
   display: flex;
-  background-color: wheat;
 }
 .input {
-  padding: 2em 2em;
+  padding: 4em 4em;
   border-radius: 20px;
   display: flex;
   gap: 2rem;
 }
-.name {
-  gap: 4em;
-} 
