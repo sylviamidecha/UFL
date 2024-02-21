@@ -51,3 +51,36 @@ h2{
 
   }
 }
+
+
+
+
+.main-2{
+  &__categories{
+    @include flex(center, center);
+  }
+ 
+  &__shop{
+    @include flex(center, center);
+    // background-color: red;
+    height: 50vh;
+    gap: 5em;
+  }
+  &__shop--page{
+    @include flex(center, center);
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px black;
+    border-radius: 2em;
+    background-color: red;
+  }
+
+  &__shop--page-2{
+    @include flex(center, center);
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px black;
+    border-radius: 2em;
+    background-color: blue; 
+  }
+}
