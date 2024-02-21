@@ -28,22 +28,7 @@
     @include flex(space-between, center);
     gap: 2em;
     color: white;
-  
-
+  }
 }
-
-}
-.icons{
-  display: none;
-}
-@media screen and (max-width:414px){
- .nav__center{
-  display: none;
- } 
- .icons{
-  display: block;
- }
-}
-
 
 
