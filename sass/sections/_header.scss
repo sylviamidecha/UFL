@@ -1,7 +1,7 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixins" as *;
 .nav {
-  background-color:gray;
+  background-color: gray;
   &__part {
     @include flex(space-between, center);
   }
@@ -12,9 +12,9 @@
       gap: 2em;
       li {
         padding: 1em;
-        &:hover{
+        &:hover {
           background-color: blue;
-            border-radius: 2em;
+          border-radius: 2em;
         }
         a {
           text-decoration: none;
@@ -28,7 +28,15 @@
     @include flex(space-between, center);
     gap: 2em;
     color: white;
+    display: none;
   }
 }
 
-
+@media screen and (max-width:614px) {
+  .nav__center {
+    display: none;
+  }
+  .nav .icons {
+    display: inline-block;
+  }
+}
