@@ -64,7 +64,7 @@
   }
 }
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/NYS-CIty-Queens-vs-Nakuru-City-Queens.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/NYS-CIty-Queens-vs-Nakuru-City-Queens.jpg") no-repeat center center/cover;
   height: 100vh;
 }
 .hero__part {
@@ -96,7 +96,7 @@
   padding: 40px 0;
 }
 .hero-2__bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/pic.png") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/pic.png") no-repeat center center/cover;
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -481,7 +481,7 @@ img:nth-child(2) {
 }
 
 .contact {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/240_F_512610544_0excDel8sZTq4W0XLJTSehr9dZfOqi5R.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/240_F_512610544_0excDel8sZTq4W0XLJTSehr9dZfOqi5R.jpg");
   height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -497,7 +497,7 @@ img:nth-child(2) {
   text-align: center;
 }
 .contact__header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/Image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/Image.jpg");
   color: white;
   padding: 4em 2em;
 }
