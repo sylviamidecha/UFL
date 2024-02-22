@@ -1,49 +1,58 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixins" as *;
 
-
-.main{
-  background-color:darkblue;
-  height: 90vh;
-}
 .contact {
-  color: aliceblue;
-  text-align: center;
-  padding:2em 2em;
-}
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/240_F_512610544_0excDel8sZTq4W0XLJTSehr9dZfOqi5R.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include flex(center, center);
+  &__container {
+    background-color: white;
+    box-shadow: 0 0 4px rgb(85, 85, 85);
+    text-align: center;
+  }
+  &__header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/images/Image.jpg");
+    color: white;
+   
+    padding: 4em 2em;
+    h1 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  &__form {
+    form {
+      @include flex(center, flex-start, column);
+      gap: 1em;
+      padding: 2em;
+      input,
+      textarea {
+        width: 100%;
+        font-size: 1rem;
+        padding: 1.5em 1em;
+        border: none;
+        box-shadow: 0 0 6px lightgrey;
+        outline: none;
+      }
+    }
+  }
+  &__button{
+    width: 100%;
+    button{
 
-
-.contact__container {
-  background-color: white;
-  width: 60%;
-  display:flex;
-  flex-direction: column;
-  margin-left: 20rem;
-  border-radius: 2%;
-  height: 60vh;
-}
-.placeholder{
-  margin-left: 2em;
-  display: flex;
-  gap:3em;
-
-  
-
-}
-.contact_address{
-  color: cadetblue;
-  display:flex;
-  justify-content: space-evenly;
-  margin-left: 2em;
-  padding-top: 4em;
-}
-.contact_address h3:hover {
-  color:lightblue;
-  cursor: pointer;
-  
-}
-.contact__border {
-  border: solid darkgray 1px;
-  width: 100%;
-  margin:2em 0;
+      background-color: blue;
+      padding: 1.5em 4em;
+      color: white;
+      font-size: 1rem;
+      border: none;
+    }
+  }
 }
