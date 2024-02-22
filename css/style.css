@@ -4,6 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -69,10 +75,6 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/NYS-CIty-Queens-vs-Nakuru-City-Queens.jpg") no-repeat center center/cover;
   height: 100vh;
 }
-
-
-
-
 .hero__part {
   display: flex;
   justify-content: center;
@@ -92,38 +94,47 @@
   .hero .hero {
     max-width: -moz-fit-content;
     max-width: fit-content;
-  }
 
 }
 
-.hero__container {
+.hero-2 h2 {
+  margin: 0 auto;
+  color: blue;
+  width: 20%;
+  padding: 40px 0;
+}
+.hero-2__bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/pic.png") no-repeat center center/cover;
+  height: 90vh;
   display: flex;
-
   justify-content: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   flex-direction: column;
 
+
   padding: 2em 1em;
   gap: 3rem;
 
-}
 
-.hero__part {
-  background-color: rgb(17, 0, 255);
-  padding: 2em 2em;
-}
 
-.hero__container {
-  display: flex;
-  padding: 2em 1em;
-  gap: 3rem;
+}
+.hero-2__bg--btn {
+  padding: 10px 20px;
+  border: none;
+  padding-bottom: 10px;
+  border-radius: 1em;
 }
 
 .main {
+
   background-color: darkblue;
   height: 90vh;
+
+
+  margin: 50px 0;
+}
 
 .main h2 {
   flex-wrap: wrap;
@@ -151,17 +162,9 @@
   box-shadow: 0 0 2px;
   height: 40vh;
 
-
-.contact {
-  color: aliceblue;
-
   text-align: center;
-  padding: 2em 2em;
-}
-
-.contact__container {
+  border-radius: 2em;
   background-color: white;
-
   padding: 50px 0;
 }
 .main__section--btn {
@@ -221,10 +224,7 @@
 }
 
 .main-2__categories {
-  width: 80%;
-
   display: flex;
-
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -248,7 +248,6 @@
 
 
   flex-direction: column;
-
   box-sizing: border-box;
   box-shadow: 0 0 2px black;
   border-radius: 2em;
@@ -300,17 +299,14 @@
 }
 .ufl__lacation li {
   list-style-type: none;
-
-  margin-left: 8rem;
-  border-radius: 2%;
-  height: 60vh;
-
 }
 
-.placeholder {
-  margin-left: 2em;
+.pic__items {
+  position: relative;
+  height: 300px;
+  width: 100vw;
+  margin-top: 5vh;
 }
-
 
 .pic__items--shop {
   margin: 0 auto;
@@ -387,6 +383,26 @@ img:nth-child(6) {
   animation-delay: 10s;
 }
 
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.pic__items img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+.pic__items img:nth-child(4) {
+  animation-delay: 6s;
+}
+
+.pic__items img:nth-child(5) {
+  animation-delay: 8s;
+}
+
+.pic__items img:nth-child(6) {
+  animation-delay: 10s;
+}
+
 .footer h1 {
   display: flex;
   justify-content: center;
@@ -453,7 +469,6 @@ img:nth-child(6) {
     flex-wrap: wrap;
   }
 }
-<<<<<<< HEAD
 .icons {
   display: flex;
   justify-content: space-between;
@@ -465,9 +480,6 @@ img:nth-child(6) {
 }
 
 .cards__part {
-=======
-.hero__part {
->>>>>>> 98bae5ae3af35ce8f1d2a857c3c15daff2d1ec72
   background-color: rgb(17, 0, 255);
   padding: 2em 2em;
 }
@@ -481,8 +493,8 @@ img:nth-child(6) {
   gap: 3em;
 }
 .cards__container .club__card {
-  width: 30%;
   box-shadow: 0 0 6px lightgray;
+  flex: 1;
 }
 .cards__container .club__card h3 {
   padding: 0 1em;
@@ -532,7 +544,6 @@ img:nth-child(6) {
   gap: 1em;
   padding: 2em;
 }
-<<<<<<< HEAD
 .contact__form form input,
 .contact__form form textarea {
   width: 100%;
@@ -551,42 +562,4 @@ img:nth-child(6) {
   color: white;
   font-size: 1rem;
   border: none;
-=======
-
-.placeholder {
-  margin-left: 2em;
-}
-
-.contact_address {
-  color: cadetblue;
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 2em;
-  padding-top: 4em;
-}
-
-.contact_mail h3:hover {
-  color: lightblue;
-  cursor: pointer;
-}
-
-.contact_address {
-  color: cadetblue;
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 2em;
-  padding-top: 4em;
-}
-
-.contact_mail h3:hover {
-  color: lightblue;
-  cursor: pointer;
-}
-
-
-.contact__border {
-  border: solid darkgray 1px;
-  width: 100%;
-  margin: 0 3em;
->>>>>>> 98bae5ae3af35ce8f1d2a857c3c15daff2d1ec72
 }
