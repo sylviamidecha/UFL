@@ -3,12 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
+
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-=======
->>>>>>> 98bae5ae3af35ce8f1d2a857c3c15daff2d1ec72
+
 }
 
 .container {
@@ -75,7 +74,6 @@
 
 
 .hero__part {
-<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,24 +93,21 @@
     max-width: -moz-fit-content;
     max-width: fit-content;
   }
-=======
-  background-color: rgb(17, 0, 255);
-  padding: 2em 2em;
->>>>>>> 98bae5ae3af35ce8f1d2a857c3c15daff2d1ec72
+
 }
 
 .hero__container {
   display: flex;
-<<<<<<< HEAD
+
   justify-content: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   flex-direction: column;
-=======
+
   padding: 2em 1em;
   gap: 3rem;
->>>>>>> 98bae5ae3af35ce8f1d2a857c3c15daff2d1ec72
+
 }
 
 .hero__part {
@@ -129,8 +124,7 @@
 .main {
   background-color: darkblue;
   height: 90vh;
-}
-<<<<<<< HEAD
+
 .main h2 {
   flex-wrap: wrap;
   margin: 0 auto;
@@ -156,11 +150,11 @@
   box-sizing: border-box;
   box-shadow: 0 0 2px;
   height: 40vh;
-=======
+
 
 .contact {
   color: aliceblue;
->>>>>>> 98bae5ae3af35ce8f1d2a857c3c15daff2d1ec72
+
   text-align: center;
   padding: 2em 2em;
 }
@@ -178,6 +172,8 @@
   background-color: black;
   cursor: pointer;
   margin: 0 auto;
+}
+}
 }
 @media screen and (max-width: 614px) {
   .main .main__drug--img {
@@ -228,7 +224,7 @@
   width: 80%;
 
   display: flex;
-<<<<<<< HEAD
+
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -249,8 +245,8 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-=======
->>>>>>> 98bae5ae3af35ce8f1d2a857c3c15daff2d1ec72
+
+
   flex-direction: column;
 
   box-sizing: border-box;
