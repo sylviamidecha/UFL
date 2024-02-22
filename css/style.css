@@ -48,10 +48,6 @@
   color: white;
 }
 
-.icons {
-  display: none;
-}
-
 @media screen and (max-width: 414px) {
   .nav__center {
     display: none;
@@ -132,6 +128,7 @@
   text-align: center;
   border-radius: 2em;
   background-color: white;
+  padding: 50px 0;
 }
 .main__section--btn {
   padding: 20px 20px;
@@ -143,6 +140,9 @@
   margin: 0 auto;
 }
 @media screen and (max-width: 414px) {
+  .main .main__drug--img img {
+    display: none;
+  }
   .main .main__section {
     flex-direction: column;
   }
@@ -333,4 +333,11 @@ img:nth-child(2) {
 }
 .footer__bottom--input__btn--btm {
   padding: 20px 10px;
+}
+
+@media screen and (max-width: 414px) {
+  .footer__part--img {
+    flex: 1;
+    flex-wrap: wrap;
+  }
 }
