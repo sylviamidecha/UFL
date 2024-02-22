@@ -9,38 +9,7 @@
   width: 90%;
 }
 
-.nav {
-  background-color: gray;
-}
-.nav__part {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.nav__center ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  gap: 2em;
-}
-.nav__center ul li {
-  padding: 1em;
-}
-.nav__center ul li:hover {
-  background-color: blue;
-  border-radius: 2em;
-}
-.nav__center ul li a {
-  text-decoration: none;
-  color: black;
-  color: white;
-}
-.nav .icons {
+.icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
