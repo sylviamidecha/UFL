@@ -1,0 +1,43 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+.nav {
+  background-color: gray;
+  &__part {
+    @include flex(space-between, center);
+  }
+  &__center {
+    ul {
+      @include flex(space-between, center);
+      list-style-type: none;
+      gap: 2em;
+      li {
+        padding: 1em;
+        &:hover {
+          background-color: blue;
+          border-radius: 2em;
+        }
+        a {
+          text-decoration: none;
+          color: black;
+          color: white;
+        }
+      }
+    }
+  }
+  .icons {
+    @include flex(space-between, center);
+    gap: 2em;
+    color: white;
+
+    display: none;
+  }
+}
+
+@media screen and (max-width:614px) {
+  .nav__center {
+    display: none;
+  }
+  .nav .icons {
+    display: inline-block;
+  }
+}
