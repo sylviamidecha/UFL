@@ -28,15 +28,15 @@
     @include flex(space-between, center);
     gap: 2em;
     color: white;
-    // display: none;
+    display: none;
   }
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:614px) {
   .nav__center {
     display: none;
   }
-  .icons {
-    display: block;
+  .nav .icons {
+    display: inline-block;
   }
 }

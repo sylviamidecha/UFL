@@ -46,14 +46,15 @@
   align-items: center;
   gap: 2em;
   color: white;
+  display: none;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 614px) {
   .nav__center {
     display: none;
   }
-  .icons {
-    display: block;
+  .nav .icons {
+    display: inline-block;
   }
 }
 .hero {
@@ -139,8 +140,16 @@
   cursor: pointer;
   margin: 0 auto;
 }
-@media screen and (max-width: 414px) {
-  .main .main__drug--img img {
+@media screen and (max-width: 614px) {
+  .main .main__drug--img {
+    flex: 1;
+    flex-direction: column;
+  }
+  .main .main__drug--img__section--part {
+    flex: 1;
+    flex-direction: column;
+  }
+  .main .main__drug--img__section--part img {
     display: none;
   }
   .main .main__section {
@@ -149,6 +158,29 @@
   .main .main__section__section--img {
     flex: 1;
   }
+}
+
+.main__drug--img {
+  background-color: #2a2a2a;
+  margin: 0 auto;
+  width: 60%;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px #2a2a2a;
+  border-radius: 1em;
+  padding: 40px 20px;
+}
+
+.main__section--part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px white;
+  border-radius: 1em;
+  padding: 40px 20px;
+  background-color: white;
+  margin-bottom: 30px;
 }
 
 .main-2__categories {
@@ -193,28 +225,16 @@
   border-radius: 2em;
   background-color: black;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 614px) {
   .main-2 .main-2__categories {
     flex-direction: column;
   }
   .main-2 .main-2__shop {
     display: none;
   }
-}
-
-.main__drug--img {
-  background-color: #2a2a2a;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2em;
-  margin: 0 auto;
-  width: 60%;
-  color: white;
-  box-sizing: border-box;
-  box-shadow: 0 0 2px #2a2a2a;
-  border-radius: 1em;
-  padding: 40px 20px;
+  .main-2 .main-2__shop h2 {
+    display: none;
+  }
 }
 
 .ufl__lacation {
@@ -361,7 +381,7 @@ img:nth-child(6) {
   padding: 20px 10px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 614px) {
   .footer__part--img {
     flex: 1;
     flex-wrap: wrap;

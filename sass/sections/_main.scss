@@ -35,12 +35,21 @@
     cursor: pointer;
     margin: 0 auto;
   }
-  @media screen and (max-width: 414px) {
-    .main__drug--img {
-      img {
+  @media screen and (max-width: 614px) {
+   .main__drug--img{
+    flex: 1;
+    flex-direction: column;
+
+    &__section--part{
+      flex: 1;
+      flex-direction: column;
+      img{
         display: none;
       }
+     
     }
+   }
+    
     .main__section {
       flex-direction: column;
 
@@ -49,6 +58,25 @@
       }
     }
   }
+}
+.main__drug--img {
+  background-color: #2a2a2a;
+  margin: 0 auto;
+  width: 60%;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px #2a2a2a;
+  border-radius: 1em;
+  padding: 40px 20px;
+}
+.main__section--part {
+  @include flex(space-between, center);
+  gap: 2em;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px white;
+  border-radius: 1em;
+  padding: 40px 20px;
+  background-color: white;
+  margin-bottom: 30px;
 }
 
 .main-2 {
@@ -88,8 +116,7 @@
     background-color: black;
   }
 
-  @media screen and (max-width: 414px) {
-   
+  @media screen and (max-width: 614px) {
     .main-2 {
       &__categories {
         flex-direction: column;
@@ -97,32 +124,21 @@
 
       &__shop {
         display: none;
+        h2{
+          display: none;
+        }
       }
     }
   }
- 
 }
-.main__drug--img {
-  background-color: #2a2a2a;
-  @include flex(space-between, center);
-
-  gap: 2em;
-  margin: 0 auto;
-  width: 60%;
-  color: white;
-  box-sizing: border-box;
-  box-shadow: 0 0 2px #2a2a2a;
-  border-radius: 1em;
-  padding: 40px 20px;
-}
-
 .ufl__lacation {
   @include flex(space-between, center);
   flex-direction: column;
-  li{
+  li {
     list-style-type: none;
   }
 }
+
 .pic__items {
   position: relative;
   height: 300px;
