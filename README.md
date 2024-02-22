@@ -10,14 +10,12 @@
 UFL is a website for a innovative organization where youths are educated and  are sponsered to further their studies.UFL was introduced so as to avoid drug usage in the society.Instead of the youths idling it makes the busy by playing football.
 ## Live Link
 To acess the project live use this link
-[link]
+[link](https://github.com/sylviamidecha/UFL.git)
 ## Screenshots
-* Hero section(![alt text](images/NYS-CIty-Queens-vs-Nakuru-City-Queens.jpg))
-![Hero section]
-___
-![alt text](<images/Screenshot from 2024-02-19 18-40-26.png>)
+* Hero section![alt text](images/NYS-CIty-Queens-vs-Nakuru-City-Queens.jpg)
+* Hero section![alt text](<images/Screenshot from 2024-02-19 18-40-26.png>)
 ___ 
-##Technology Used
+## Technology Used
 ___
 * html
 *  css
@@ -26,12 +24,14 @@ __
 ## Project setup and installation
 ___
 1. Open the terminal and navigate to where you want to store the project eg`cd desktop`
-2. To clone the github project paste this in the terminal`git clone 
+2. To clone the github project paste this in the terminal`gitclonehttps://github.com/sylviamidecha/UFL`
 3. Use `cd UFL` to get into the project directory
 4. Opened the projectwith your favourite browser.
 ___
-##Contact
-For more information if you would like to reach out to me for querries, collaboration via email: ***sylviamidecha801@gmail.com ***
+## Contact.
+___
+____
+For more information if you would like to reach out to me for querries, collaboration via email: ***sylviamidecha801@gmail.com***,
 ***otienomito99@gmail.com***
 ___
 ## Licence
