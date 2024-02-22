@@ -1,0 +1,40 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+
+  .icons {
+    @include flex(space-between, center);
+    gap: 2em;
+    color: white;
+  }
+
+.cards {
+  &__part{
+    background-color: rgb(17, 0, 255);
+    padding: 2em 2em;
+  }
+  &__container{
+    margin-top: 2em;
+    @include flex(flex-start, flex-start);
+    gap: 3em;
+    .club__card{
+      width: 30%;
+      box-shadow: 0 0 6px lightgray;
+      h3{
+        padding: 0 1em;
+        margin: 0.5em 0;
+        text-align: center;
+        font-size: 1.3rem;
+      } 
+      p{
+        padding: 0 1em 1em 1em;
+      }
+      
+    }
+  }
+  
+  
+  
+}
+
+
