@@ -36,12 +36,11 @@
     margin: 0 auto;
   }
   @media screen and (max-width: 414px) {
-    .main__drug--img{
-      img{
+    .main__drug--img {
+      img {
         display: none;
       }
-      
-      }
+    }
     .main__section {
       flex-direction: column;
 
@@ -50,7 +49,6 @@
       }
     }
   }
-
 }
 
 .main-2 {
@@ -91,6 +89,7 @@
   }
 
   @media screen and (max-width: 414px) {
+   
     .main-2 {
       &__categories {
         flex-direction: column;
@@ -101,6 +100,7 @@
       }
     }
   }
+ 
 }
 .main__drug--img {
   background-color: #2a2a2a;
@@ -114,7 +114,14 @@
   box-shadow: 0 0 2px #2a2a2a;
   border-radius: 1em;
   padding: 40px 20px;
-  // margin-bottom: 20px 0;
+}
+
+.ufl__lacation {
+  @include flex(space-between, center);
+  flex-direction: column;
+  li{
+    list-style-type: none;
+  }
 }
 .pic__items {
   position: relative;
@@ -122,56 +129,71 @@
   width: 100vw;
   margin-top: 5vh;
 }
+
+.pic__items--shop {
+  margin: 0 auto;
+  width: 10%;
+}
+.pic__items--btn {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px black;
+  border-radius: 2em;
+  cursor: pointer;
+  border: none;
+  background-color: blue;
+  color: white;
+}
 .pic__items img {
-  width: 15%;
+  width: 20%;
   height: 100%;
 }
 @keyframes display {
   0% {
-    transform: translateX(200px);
+    transform: translate3d(200px);
     opacity: 0;
   }
   10% {
-    transform: translateX(o);
-    opacity: 1;
+    transform: translate3d(o);
+    opacity: 0;
   }
   20% {
-    transform: translateX(0);
+    transform: translate3d(0);
     opacity: 1;
   }
   30% {
-    transform: translateX(0);
+    transform: translate3d(-200px);
     opacity: 1;
   }
   40% {
-    transform: translateX(-200px);
+    transform: translate3d(-200px);
     opacity: 0;
   }
   100% {
-    transform: translateX(-200px);
+    transform: translate3d(-200px);
     opacity: 0;
   }
 }
 
 .pic__items > img {
   position: absolute;
-  animation: dispaly 12s infinite;
+  animation: display 12s infinite;
+  left: calc(50% - 200px);
   opacity: 0;
-  left: calc(50% - 100px);
   top: 0;
 }
 img:nth-child(2) {
   animation-delay: 2s;
 }
-.pic__items img:nth-child(3) {
+img:nth-child(3) {
   animation-delay: 4s;
 }
-.pic__items img:nth-child(4) {
+img:nth-child(4) {
   animation-delay: 6s;
 }
-.pic__items img:nth-child(5) {
+img:nth-child(5) {
   animation-delay: 8s;
 }
-.pic__items img:nth-child(6) {
+img:nth-child(6) {
   animation-delay: 10s;
 }
