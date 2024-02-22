@@ -96,11 +96,7 @@
   padding: 40px 0;
 }
 .hero-2__bg {
-<<<<<<< HEAD
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/roro.png") no-repeat center, center/cover;
-=======
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/pic.png") no-repeat center center/cover;
->>>>>>> 75e98d04a2958ecaed0739a1dc145fd9f03cd8e1
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -540,4 +536,4 @@ img:nth-child(2) {
   color: white;
   font-size: 1rem;
   border: none;
-}
+}/*# sourceMappingURL=style.css.map */
