@@ -1,10 +1,11 @@
 @use "../utilities/mixins" as *;
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../images/NYS-CIty-Queens-vs-Nakuru-City-Queens.jpg") no-repeat center center/cover;
+  background:url("../../images/NYS-CIty-Queens-vs-Nakuru-City-Queens.jpg") no-repeat center center/cover;
 
   height: 100vh;
 
   &__part {
+   
     @include flex(center, center);
     flex-direction: column;
     margin: 0 auto;
@@ -28,7 +29,7 @@ h2{
   padding: 40px 0;
 }
   &__bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../../images/pic.png") no-repeat center center/cover;
+    background:url("../../images/pic.png") no-repeat center,center/cover;
     height: 90vh;
     @include flex(center, center);
     flex-direction: column;

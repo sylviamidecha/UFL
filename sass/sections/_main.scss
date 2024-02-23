@@ -67,6 +67,7 @@
   box-shadow: 0 0 2px #2a2a2a;
   border-radius: 1em;
   padding: 40px 20px;
+  
 }
 .main__section--part {
   @include flex(space-between, center);
