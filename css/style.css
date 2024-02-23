@@ -3,17 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-
-
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-
 }
 
 .container {
@@ -94,7 +86,7 @@
   .hero .hero {
     max-width: -moz-fit-content;
     max-width: fit-content;
-
+  }
 }
 
 .hero-2 h2 {
@@ -112,13 +104,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   flex-direction: column;
-
-
-  padding: 2em 1em;
-  gap: 3rem;
-
-
-
 }
 .hero-2__bg--btn {
   padding: 10px 20px;
@@ -128,14 +113,8 @@
 }
 
 .main {
-
-  background-color: darkblue;
-  height: 90vh;
-
-
   margin: 50px 0;
 }
-
 .main h2 {
   flex-wrap: wrap;
   margin: 0 auto;
@@ -161,7 +140,6 @@
   box-sizing: border-box;
   box-shadow: 0 0 2px;
   height: 40vh;
-
   text-align: center;
   border-radius: 2em;
   background-color: white;
@@ -175,8 +153,6 @@
   background-color: black;
   cursor: pointer;
   margin: 0 auto;
-}
-}
 }
 @media screen and (max-width: 614px) {
   .main .main__drug--img {
@@ -245,8 +221,6 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-
-
   flex-direction: column;
   box-sizing: border-box;
   box-shadow: 0 0 2px black;
